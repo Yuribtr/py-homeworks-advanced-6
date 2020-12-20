@@ -3,9 +3,11 @@
 
 ## Solution
 - made web page parser that accepts XPath for searching elements (this will speed up adapting parser for different sites)
+- parser will try to locate keywords in non-strict mode (partial coincidence allowed)
 - if parser unable to find keywords in article preview, parser will scan its full content  
 
 
+---
 
 Попробуем получать интересующие нас статьи на [хабре](https://habr.com) самыми первыми :)
 
